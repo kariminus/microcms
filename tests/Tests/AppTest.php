@@ -43,6 +43,7 @@ class AppTest extends WebTestCase
 
         return $app;
     }
+    
 
     /**
      * Provides all valid application URLs.
@@ -61,6 +62,8 @@ class AppTest extends WebTestCase
             array('/admin/comment/1/edit'),
             array('/admin/user/add'),
             array('/admin/user/1/edit'),
+            array('/api/articles'),
+            array('/api/article/1'),
         );
     }
 }
