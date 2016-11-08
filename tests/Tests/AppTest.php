@@ -43,7 +43,7 @@ class AppTest extends WebTestCase
 
         return $app;
     }
-    
+
 
     /**
      * Provides all valid application URLs.
